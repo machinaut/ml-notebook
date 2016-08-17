@@ -1,5 +1,11 @@
 # Machine Learning Notebook
 
-Based on the [jupyter docker-stacks project](https://github.com/jupyter/docker-stacks), this adds some other Machine Learning tools.
+Tools I use in Machine Learning, all packaged up and ready to go.
 
-This is intended to be spun up on EC2 to take advantage of more powerful computers than I'm willing to carry to a coffee shop.
+Note: This pulls bleeding-edge versions of everything.
+It will probably break and then I'll start pinning versions.
+If you send me a note on twitter I'm happy to help debug issues with it.
+
+The exception to this is TensorFlow, which is fixed to the version in its url.
+If someone has a better way to solve this, let me know on Twitter!
+I could build it from scratch but this docker build takes long enough already.
