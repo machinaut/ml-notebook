@@ -1,6 +1,5 @@
 # Machine Learning Notebooks
 
-
 FROM ubuntu
 RUN apt-get update && apt-get install -y \
         python-dev python3-dev curl pkg-config libpng-dev libfreetype6-dev
